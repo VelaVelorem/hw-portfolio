@@ -11,7 +11,7 @@ const Header = () => {
                 
                 <header className="col col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div>
-                        <div className="headerContent px-5">
+                        <div className="headerContent">
                             <h1>Haneefah</h1>
                             <h2 className="subheader">Witherspoon</h2>
                             <h3 className="subheaderDescription">Frontend Developer</h3>

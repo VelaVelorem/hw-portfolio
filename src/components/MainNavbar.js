@@ -4,9 +4,9 @@ import  hiwLogo  from '../imgs/greytextlightbg.png'
 
 const MainNavbar = () => {
     return (
-        <nav className="d-flex align-items-center justify-content-evenly">
+        <nav className="d-flex align-items-center justify-content-around">
 
-            <div className="logoContainer ms-5 justify-content-start">
+            <div className="logoContainer">
                 <img src={hiwLogo} alt="logo of initials" className="logo" />
             </div>
 

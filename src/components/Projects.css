@@ -1,4 +1,24 @@
 .contentSection {
     background-color: #00000050;
-    padding: 2em 1em 2em 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 2.5em;
+}
+.educationBox {
+    border-bottom: 1px solid grey;
+    padding-bottom: 1em;
+}
+.educationBox:hover {
+    border-bottom: 1px solid grey;
+    background-color: #00000015;
+}
+.educationSubheader {
+    text-transform: uppercase;
+
 }
