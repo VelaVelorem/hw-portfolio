@@ -1,0 +1,25 @@
+/* HEX COLOR CODES
+#2a2928
+#956d34
+#b58b47
+#443c2c
+#5f4d2c
+#b7b7b7 */
+nav {
+    border-bottom: 1px solid #b7b7b7;
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: none;
+}
+nav ul li {
+    color: #b7b7b7;
+    border-right: 1px solid grey;
+}
+nav ul li:nth-child(3) {
+    border: none;
+}
+.logo {
+    height: 30px;
+}
