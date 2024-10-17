@@ -9,6 +9,8 @@ h4 {
     font-weight: 700;
     font-size: 1em;
     margin-bottom: 2.5em;
+    color: #b8c7c2;
+    
 }
 .educationBox {
     border-bottom: 1px solid grey;
@@ -21,4 +23,17 @@ h4 {
 .educationSubheader {
     text-transform: uppercase;
 
+}
+.fadeUp {
+    animation: fadeUp 1s ease-in forwards;
+}
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

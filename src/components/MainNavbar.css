@@ -11,7 +11,9 @@ nav {
     letter-spacing: 0.2em;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: none;
+    background-color: 
+    #edecea;
+    box-shadow: grey 1px 1px 8px;
 }
 nav ul li {
     color: #b7b7b7;
@@ -22,4 +24,14 @@ nav ul li:nth-child(3) {
 }
 .logo {
     height: 30px;
+}
+@keyframes fadeDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

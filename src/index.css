@@ -21,11 +21,3 @@ ul, li, ol {
 span {
   display: inline-block;
 }
-/* END OF PRESETS */
-body {
-  background-image: url('https://images.pexels.com/photos/532566/pexels-photo-532566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  background-size: cover;
-  background-repeat: no-repeat; 
-  background-position: center;
-  height: 100vh;
-}

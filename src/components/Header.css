@@ -6,6 +6,13 @@ header {
     margin-top: 7em;
     margin-bottom: 7em;
 }
+.fadeRight {
+    animation: fadeRight 1.2s ease-in forwards;
+}
+
+.fadeRightSecond {
+    animation: fadeRight 1s ease-in forwards;
+}
 .headerContainer {
     /* height: 50%; */
     /* border: 1px solid red; */
@@ -35,6 +42,7 @@ h1 {
 }
 h2 {
     font-size: 3.5rem;
+    color: #b8c7c2;
     text-transform: uppercase;
     font-weight: 200;
 }
@@ -42,4 +50,24 @@ a .socialMediaIcon {
     text-decoration: none;
     font-size: 2em;
     color: black;
+}
+@keyframes fadeRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeRightSecond {
+    0% {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }

@@ -3,10 +3,11 @@ import Header from './components/Header'
 import MainNavbar from './components/MainNavbar';
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import Contact from './pages/Contact'
 
 function App() {
   return (
-    <div>
+    <div className="background">
       <MainNavbar />
       <Header />
       <Projects />

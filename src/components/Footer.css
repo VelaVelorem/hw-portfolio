@@ -1,4 +1,10 @@
 footer {
-    background-color: black;
-    color: white;
+    background-color: #edecea;
+    color: black;
+    padding: 2em;
+}
+footer p {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
 }
