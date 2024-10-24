@@ -1,4 +1,4 @@
-.contactSection {
+.projectSection {
     background-color: #00000050;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -12,31 +12,15 @@ h4 {
     color: #b8c7c2;
     
 }
-.contactBox {
+.projectBox {
     border-bottom: 1px solid grey;
     padding-bottom: 1em;
 }
-.contactBox:hover {
+.projectBox:hover {
     border-bottom: 1px solid grey;
     background-color: #00000015;
 }
-.contactSubheader {
+.projectSubheader {
     text-transform: uppercase;
 
-}
-.fadeUp {
-    animation: fadeUp 1s ease-in forwards;
-}
-.fadeUpLast {
-    animation: fadeUp 1.2s ease-in forwards;
-}
-@keyframes fadeUp {
-    0% {
-        opacity: 0;
-        transform: translateY(300px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }

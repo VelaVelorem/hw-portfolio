@@ -27,6 +27,9 @@ h4 {
 .fadeUp {
     animation: fadeUp 1s ease-in forwards;
 }
+.fadeUpLast {
+    animation: fadeUp 1.2s ease-in forwards;
+}
 @keyframes fadeUp {
     0% {
         opacity: 0;
