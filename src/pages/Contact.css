@@ -40,3 +40,43 @@ h4 {
         transform: translateY(0);
     }
 }
+.contactH1 {
+    color: #b8c7c2;
+    margin-bottom: 0;
+}
+.contactSub {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8em;
+}
+.contactFormContent {
+    width: 80%;
+    color: white;
+}
+.contactFormContent {
+    box-shadow: 1px 5px 15px 5px grey;
+}
+.contactFormInput {
+    background-color: #a2a1a0;
+    border: none;
+    border-bottom: 1px solid red;
+    border-radius: 1px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: white;
+}
+.contactFormInput:focus {
+    background-color: #a2a1a0;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid red;
+    box-shadow: none;
+    cursor: pointer;
+
+}
+.contactFormInput:hover {
+    cursor: pointer;
+}
+label {
+    text-transform: uppercase;
+}
