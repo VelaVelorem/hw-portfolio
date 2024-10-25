@@ -1,5 +1,8 @@
 import './Contact.css'
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 
 
 const Contact = () => {
@@ -19,54 +22,66 @@ const Contact = () => {
                                         <Input
                                             type="text"
                                             name="fn"
-                                            id="fn" placeholder="Enter your name..." 
+                                            id="fn" placeholder="Enter your name..."
                                             className="contactFormInput" />
                                     </FormGroup>
 
                                     <FormGroup>
                                         <Label for="email" className="mr-sm-2">Email</Label>
-                                        <Input 
-                                        type="text" 
-                                        name="email" 
-                                        id="email" 
-                                        placeholder="Enter your Email..."
-                                        className="contactFormInput"  />
+                                        <Input
+                                            type="text"
+                                            name="email"
+                                            id="email"
+                                            placeholder="Enter your Email..."
+                                            className="contactFormInput" />
                                     </FormGroup>
 
                                     <FormGroup>
                                         <Label for="examplePassword" className="mr-sm-2">Message</Label>
-                                        <Input 
-                                        type="text" 
-                                        name="message" 
-                                        id="message" 
-                                        placeholder="Enter your message..." 
-                                        className="contactFormInput" />
+                                        <Input
+                                            type="text"
+                                            name="message"
+                                            id="message"
+                                            placeholder="Enter your message..."
+                                            className="contactFormInput" />
                                     </FormGroup>
 
                                     <div className="contactBtnHolder text-center">
-                                        <Button>Send</Button>
+                                        <Button className="contactBtn mt-5" type="button">Send</Button>
                                     </div>
-                                    </Form>
+                                </Form>
                             </div>
                         </div>
 
 
                         <div className="contactInfoBox col col-sm-12 col-md-5 col-lg-5">
-                            <div className="d-flex align-items-center flex-column flex-wrap">
+                            <div className="d-flex align-items-start flex-column flex-wrap">
                                 <h1 className="contactH1">Let's get in touch</h1>
                                 <p className="contactSub me-auto pb-5">You can reach me via...</p>
 
-                                <p className="contactP">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
+                                <div className="socialMediaContainer d-flex justify-content-start flex-column">
+                                    <div className="individualMediaBox d-flex align-items-center mb-4">
+                                        <a href="mailto:haneefah207@gmail.com">
+                                            <FontAwesomeIcon icon={faEnvelope} className="mediaIcon me-5" /></a>
 
-                                <p className="contactP">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
+                                        <button type="button" className="mediaButton">Email</button>
+                                    </div>
 
-                                <p className="contactP">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
+                                    <div className="individualMediaBox d-flex align-items-center mb-4">
+                                        <a href="https://github.com/VelaVelorem">
+                                            <FontAwesomeIcon icon={faGithub} className="mediaIcon me-5" /></a>
+
+                                        <button type="button" className="mediaButton">Github</button>
+                                    </div>
+
+                                    <div className="individualMediaBox d-flex align-items-center">
+
+                                        <a href="https://www.linkedin.com/in/haneefah-witherspoon/">
+                                            <FontAwesomeIcon icon={faLinkedin} className="mediaIcon me-5" /></a>
+
+                                        <button type="button" className="mediaButton">Linkedin</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

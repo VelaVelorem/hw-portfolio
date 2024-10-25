@@ -41,13 +41,14 @@ h4 {
     }
 }
 .contactH1 {
-    color: #b8c7c2;
+    color: #D8E8E1;
     margin-bottom: 0;
 }
 .contactSub {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.8em;
+    color: white;
 }
 .contactFormContent {
     width: 80%;
@@ -55,22 +56,22 @@ h4 {
 }
 .contactFormContent {
     box-shadow: 1px 5px 15px 5px grey;
+    border-radius: 4px;
 }
 .contactFormInput {
-    background-color: #a2a1a0;
+    background-color: #a3a2a1;
     border: none;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid lightgrey;
     border-radius: 1px;
     font-size: 0.8rem;
-    text-transform: uppercase;
     color: white;
 }
 .contactFormInput:focus {
-    background-color: #a2a1a0;
+    background-color: #a3a2a1;
     border: none;
     box-shadow: none;
-    border-bottom: 1px solid red;
-    box-shadow: none;
+    border-bottom: 1px solid lightgrey;
+    box-shadow: 3px 5px 1px 1px #D8E8E1;
     cursor: pointer;
 
 }
@@ -79,4 +80,42 @@ h4 {
 }
 label {
     text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.contactBtn {
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    background-color: #a3a2a1;
+    border: 1px solid lightgrey;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+.contactBtn:hover {
+    border: 1px solid #D8E8E1;
+    color: #D8E8E1;
+    background-color: #a3a2a1;
+    box-shadow: 3px 5px 1px 1px #D8E8E1;
+}
+.form-control {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.mediaButton {
+    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+    letter-spacing: 0.3rem;
+    background-color: #a3a2a1;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+}
+.mediaButton:hover {
+    box-shadow: 3px 5px 1px 1px #D8E8E1;
+    transition: 0.3s;
+}
+.mediaIcon {
+    color: white;
+    height: 2rem;
+}
+.individualMediaBox {
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
 }
