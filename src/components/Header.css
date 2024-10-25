@@ -1,6 +1,9 @@
 header {
-    border-right: 1px solid grey;
+    border-right: 1px solid lightgrey;
     /* border: 1px solid red; */
+}
+ol, ul {
+    padding: 0;
 }
 .row, header section {
     margin-top: 7em;
@@ -69,5 +72,29 @@ a .socialMediaIcon {
     100% {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+.softSkillsBtn {
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border: 1px solid #CEB69B;
+    color: #CEB69B;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+.softSkillsBtn:hover {
+    cursor: pointer;
+    animation: jumpUp 0.5s ease-in-out forwards;
+}
+@keyframes jumpUp {
+    0% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
     }
 }

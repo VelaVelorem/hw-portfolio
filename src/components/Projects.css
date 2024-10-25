@@ -22,7 +22,7 @@ h4 {
 }
 .educationSubheader {
     text-transform: uppercase;
-
+    font-size: 0.8rem;
 }
 .fadeUp {
     animation: fadeUp 1s ease-in forwards;
@@ -39,4 +39,7 @@ h4 {
         opacity: 1;
         transform: translateY(0);
     }
+}
+.experienceItem {
+    list-style: square;
 }

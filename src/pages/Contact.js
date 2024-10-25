@@ -61,25 +61,25 @@ const Contact = () => {
 
                                 <div className="socialMediaContainer d-flex justify-content-start flex-column">
                                     <div className="individualMediaBox d-flex align-items-center mb-4">
-                                        <a href="mailto:haneefah207@gmail.com">
-                                            <FontAwesomeIcon icon={faEnvelope} className="mediaIcon me-5" /></a>
 
-                                        <button type="button" className="mediaButton">Email</button>
+                                        <FontAwesomeIcon icon={faEnvelope} className="mediaIcon me-5" />
+
+                                        <a href="mailto:haneefah207@gmail.com"><button type="button" className="mediaButton">Email</button></a>
                                     </div>
 
                                     <div className="individualMediaBox d-flex align-items-center mb-4">
-                                        <a href="https://github.com/VelaVelorem">
-                                            <FontAwesomeIcon icon={faGithub} className="mediaIcon me-5" /></a>
 
-                                        <button type="button" className="mediaButton">Github</button>
+                                        <FontAwesomeIcon icon={faGithub} className="mediaIcon me-5" />
+
+                                        <a href="https://github.com/VelaVelorem"><button type="button" className="mediaButton">Github</button></a>
                                     </div>
 
                                     <div className="individualMediaBox d-flex align-items-center">
 
-                                        <a href="https://www.linkedin.com/in/haneefah-witherspoon/">
-                                            <FontAwesomeIcon icon={faLinkedin} className="mediaIcon me-5" /></a>
 
-                                        <button type="button" className="mediaButton">Linkedin</button>
+                                        <FontAwesomeIcon icon={faLinkedin} className="mediaIcon me-5" />
+
+                                        <a href="https://www.linkedin.com/in/haneefah-witherspoon/"><button type="button" className="mediaButton">Linkedin</button></a>
                                     </div>
                                 </div>
                             </div>

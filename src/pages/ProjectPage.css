@@ -3,15 +3,6 @@
     padding-top: 2em;
     padding-bottom: 2em;
 }
-h4 {
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
-    font-weight: 700;
-    font-size: 1em;
-    margin-bottom: 2.5em;
-    color: #b8c7c2;
-    
-}
 .projectBox {
     border-bottom: 1px solid grey;
     padding-bottom: 1em;

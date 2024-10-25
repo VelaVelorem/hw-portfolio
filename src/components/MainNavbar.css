@@ -17,10 +17,10 @@ nav {
 }
 nav ul li {
     color: #b7b7b7;
-    border-right: 1px solid grey;
+    border-right: 1px solid lightgrey;
 }
 nav ul li:nth-child(3) {
-    border: none;
+    border-right: none;
 }
 .logo {
     height: 30px;

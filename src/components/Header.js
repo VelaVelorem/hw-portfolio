@@ -16,10 +16,13 @@ const Header = () => {
                             <h2 className="subheader">Witherspoon</h2>
                             <h3 className="subheaderDescription">Frontend Developer</h3>
 
-                            <div className="socialMediaContainer d-flex justify-content-start">
-                                <a href="https://github.com/VelaVelorem"><FontAwesomeIcon icon={faGithub} className="socialMediaIcon me-4" /></a>
-                                <a href="https://www.linkedin.com/in/haneefah-witherspoon/"><FontAwesomeIcon icon={faLinkedin} className="socialMediaIcon" /></a>
-                            </div>
+                            <ul className="socialMediaContainer d-flex justify-content-start flex-wrap">
+                                <li><button className="softSkillsBtn me-2" disabled>Adaptablity</button></li>
+                                <li><button className="softSkillsBtn me-2" disabled>Organization</button></li>
+                                <li><button className="softSkillsBtn me-2" disabled>Enthusiasm for learning</button></li>
+                                <li><button className="softSkillsBtn me-2" disabled>Self Motivated</button></li>
+                                <li><button className="softSkillsBtn me-2" disabled>Analytical</button></li>
+                            </ul>
                         </div>
                     </div>
                 </header>
