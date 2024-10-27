@@ -24,7 +24,7 @@ const Projects = () => {
 
                             <div className="educationBox mb-3 px-3 pt-2 pb-2">
                                 <h5>Nucamp Coding Bootcamp | Web Development  Fundamentals, Front End & Mobile Development</h5>
-                                <span className="educationSubheader">June 2024-Sept 2024</span>
+                                <span className="educationSubheader">June 2024 - Sept 2024</span>
 
                                 <ul className="experienceList mt-4">
 
@@ -43,7 +43,7 @@ const Projects = () => {
                                 <h5>CSMD College of Southern Maryland  —
                                     Introduction to CSS3 & HTML5
                                 </h5>
-                                <span className="educationSubheader">June 2024-Sept 2024</span>
+                                <span className="educationSubheader">November 2023 - February 2024</span>
                                 <ul className="experienceList mt-4">
 
                                     <li className="experienceItem">

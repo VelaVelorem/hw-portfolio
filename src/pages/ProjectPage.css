@@ -9,8 +9,71 @@
 }
 .projectBox:hover {
     border-bottom: 1px solid grey;
-    background-color: #00000015;
+    background-color: #00000025;
 }
 .projectSubheader {
     text-transform: uppercase;
+}
+.projectSectionLight {
+    background-color: #efebea;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.individualProjectContainer {
+    background-color: #abaaa9;
+    border-radius: 0.5em;
+    padding: 1.8em 1em;
+    margin-top: 5em;
+}
+.individualProjectContainer {
+    box-shadow: 1px 12px 8px 5px #00000030;
+
+}
+.projectHeader {
+    color: #D8E8E1;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.projectMainHeader {
+    color: #D8E8E1;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.projectInfoContainer {
+    width: 50%;
+    border: 1px solid lightgrey;
+    border-radius: 0.2em;
+    padding: 2em;
+}
+.projectButton {
+    padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+    letter-spacing: 0.3rem;
+    background-color: #a3a2a1;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+}
+.projectButton:hover {
+    box-shadow: 3px 5px 1px 1px #D8E8E1;
+    transition: 0.3s;
+}
+.projectImg {
+    opacity: 0.3;
+    width: 100%;
+}
+.projectImg:hover {
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+@media (max-width: 768px) { 
+    .projectInfoContainer {
+        margin-top: 3em;
+        padding: none;
+    }
+}
+.projectButtonsContainer {
+    width: 100%;
 }

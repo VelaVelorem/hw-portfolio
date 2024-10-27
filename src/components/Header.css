@@ -2,6 +2,12 @@ header {
     border-right: 1px solid lightgrey;
     /* border: 1px solid red; */
 }
+@media(max-width: 768px) {
+    header {
+        border-right: none;
+        margin-bottom: 3em;
+    }
+}
 ol, ul {
     padding: 0;
 }
@@ -48,6 +54,7 @@ h2 {
     color: #b8c7c2;
     text-transform: uppercase;
     font-weight: 400;
+    text-shadow: 2px 2px #00000015;
 }
 a .socialMediaIcon {
     text-decoration: none;
@@ -96,5 +103,17 @@ a .socialMediaIcon {
     }
     100% {
         transform: translateY(0);
+    }
+}
+.aboutMeHeader { 
+    text-shadow: 2px 2px #00000015;
+    font-size: 3em;
+}
+.blurbContainer {
+    padding: 3rem;
+}
+@media(max-width: 768px) {
+    .blurbContainer {
+        padding-left: 0;
     }
 }

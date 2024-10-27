@@ -17,10 +17,12 @@ nav {
 }
 nav ul li {
     color: #b7b7b7;
-    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
-nav ul li:nth-child(3) {
-    border-right: none;
+nav ul li:hover {
+    color: darkgrey;
+    border-bottom: 1px solid darkgrey;
+    transition: 0.5s ease-in;
 }
 .logo {
     height: 30px;

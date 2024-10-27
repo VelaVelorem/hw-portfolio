@@ -27,8 +27,9 @@ const Header = () => {
                     </div>
                 </header>
 
-                <section className="blurbContainer col col-xs-12 col-sm-12 col-md-6 col-lg-6 ps-5 fadeRightSecond">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <section className="blurbContainer col col-xs-12 col-sm-12 col-md-6 col-lg-6 fadeRightSecond">
+                    <h2 className="aboutMeHeader mb-4">Hey there,</h2>
+                    <p className="aboutMeSummary">I’m a front-end web developer from Southern Maryland, with a background as a doctor's assistant in dentistry. My journey into coding began as a personal interest; after discovering my passion, I pursued self-study, attended a web development bootcamp, and took college courses related to the field. I’ve gained a deep appreciation for both design and functionality and look forward to enhancing my skills in this dynamic industry.</p>
                 </section>
             </div>
         </section>
