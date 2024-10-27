@@ -10,7 +10,11 @@ h4 {
     font-size: 1em;
     margin-bottom: 2.5em;
     color: #D8E8E1;
+    display: inline-block;
     
+}
+h5 {
+    color: black;
 }
 .educationBox {
     border-bottom: 1px solid grey;
@@ -24,6 +28,7 @@ h4 {
     text-transform: uppercase;
     font-size: 0.8rem;
 }
+/* ANIMATION RELATED */
 .fadeUp {
     animation: fadeUp 1s ease-in forwards;
 }
@@ -40,6 +45,37 @@ h4 {
         transform: translateY(0);
     }
 }
+@keyframes jumpUp {
+    0% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+/* END OF ANIMATION STYLING */
 .experienceItem {
     list-style: square;
+    padding-left: 1.2em;
+    margin-top: 0.3em;
+}
+.skillContainer {
+    width: 60%;
+}
+.skillsBtn {
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border: 1px solid white;
+    color: #c5ddca;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    background-color: #a5a2a1;
+}
+.skillsBtn:hover {
+   cursor: pointer;
+    animation: jumpUp 0.5s ease-in-out forwards;
 }

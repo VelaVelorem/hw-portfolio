@@ -47,7 +47,7 @@ h2 {
     font-size: 3.5rem;
     color: #b8c7c2;
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 400;
 }
 a .socialMediaIcon {
     text-decoration: none;
@@ -81,8 +81,8 @@ a .socialMediaIcon {
     padding-right: 0.5rem;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
-    border: 1px solid #CEB69B;
-    color: #CEB69B;
+    border: 1px solid black;
+    color: black;
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
 }
