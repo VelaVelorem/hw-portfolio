@@ -20,7 +20,7 @@ const ProjectPage = () => {
                             </div>
 
                             <div className="projectInfoContainer">
-                                <h5 className="projectHeader mb-4">Anime Database</h5>
+                                <h5 className="projectHeader mb-4 workInProgress d-flex align-items-center gap-3">Anime Database</h5>
                                     <p>In this project I built an anime database that allows users to search for titles and filter through various genres for the currently airing anime shows. Through integrating an open-source API (Jikan Api) I dynamically display each anime's details. I also stylized the entire app with Tailwind CSS, focusing on a clean, responsive layout that'll maintain a consistent look across devices, I as well emphasized utilizing select React hooks to manage the project's state and data flow across components.</p>
 
                                 <div className="projectButtonsContainer mt-5 d-flex justify-content-center align-items-center">

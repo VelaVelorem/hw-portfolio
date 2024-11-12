@@ -64,6 +64,16 @@
     width: 600px;
     border: 2px solid white;
 }
+.workInProgress::after {
+    content: "WIP";
+    color: black;
+    background-color: yellow;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    padding: 0.5em;
+    text-align: center;
+    font-weight: 700;
+}
 .projectImg:hover {
     opacity: 1;
     transition: 1s;
