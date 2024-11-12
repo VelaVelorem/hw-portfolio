@@ -48,6 +48,7 @@ h1 {
     letter-spacing: 0.1em;
     font-weight: 700;
     text-transform: uppercase;
+    color: #4c3434;
 }
 h2 {
     font-size: 3.5rem;
@@ -88,8 +89,8 @@ a .socialMediaIcon {
     padding-right: 0.5rem;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
-    border: 1px solid black;
-    color: black;
+    border: 1px solid #4c3434;
+    color: #4c3434;
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
 }
@@ -116,4 +117,11 @@ a .socialMediaIcon {
     .blurbContainer {
         padding-left: 0;
     }
+}
+.aboutMeSummary {
+    font-size: 1.2em;
+    color: #4c3434;
+}
+h3 {
+    color: #4c3434;
 }

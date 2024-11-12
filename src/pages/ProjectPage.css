@@ -61,17 +61,22 @@
 }
 .projectImg {
     opacity: 0.3;
-    width: 100%;
+    width: 600px;
+    border: 2px solid white;
 }
 .projectImg:hover {
     opacity: 1;
     transition: 1s;
     cursor: pointer;
+    box-shadow: 1px 6px 5px 5px #00000035;
 }
 @media (max-width: 768px) { 
     .projectInfoContainer {
         margin-top: 3em;
         padding: none;
+    }
+    .projectImg {
+        width: 100%;
     }
 }
 .projectButtonsContainer {
