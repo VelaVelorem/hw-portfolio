@@ -12,16 +12,16 @@ const Contact = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
+    // const handleSubmit = (event) => {
+    //     event.preventDefault();
         
-        alert("Message sent!")
-        console.log(`Message sent successfully, messenger details: ${firstName}, ${email}, ${message}`);
+    //     alert("Message sent!")
+    //     console.log(`Message sent successfully, messenger details: ${firstName}, ${email}, ${message}`);
 
-        setFirstName("")
-        setEmail("");
-        setMessage("");
-    }
+    //     setFirstName("")
+    //     setEmail("");
+    //     setMessage("");
+    // }
 
 
     return (
@@ -34,8 +34,8 @@ const Contact = () => {
 
                             <div className="contactFormContent mx-auto pt-5 pb-5 px-5 mt-5 mt-auto">
                                 <Form 
-                                onSubmit={handleSubmit}
-                                action="https://formspree.io/f/xzzbgjlk"
+                                // onSubmit={handleSubmit}
+                                action="https://formsubmit.co/haneefah207@gmail.com"
                                 method='POST'>
                                     <FormGroup>
                                         <Label
