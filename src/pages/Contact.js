@@ -35,7 +35,7 @@ const Contact = () => {
                             <div className="contactFormContent mx-auto pt-5 pb-5 px-5 mt-5 mt-auto">
                                 <Form 
                                 // onSubmit={handleSubmit}
-                                action="https://formsubmit.co/haneefah207@gmail.com"
+                                action="https://formsubmit.co/0feaa757c2dfe9cb5ccd787e1d96135e"
                                 method='POST'>
                                     <FormGroup>
                                         <Label
