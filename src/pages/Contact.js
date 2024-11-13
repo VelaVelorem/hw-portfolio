@@ -3,9 +3,27 @@ import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
+import { useState } from 'react';
 
 
 const Contact = () => {
+
+    const [firstName, setFirstName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        
+        alert("Message sent!")
+        console.log(`Message sent successfully, messenger details: ${firstName}, ${email}, ${message}`);
+
+        setFirstName("")
+        setEmail("");
+        setMessage("");
+    }
+
+
     return (
         <>
             <section className="contactSection">
@@ -15,25 +33,34 @@ const Contact = () => {
                         <div className="contactFormBox col col-sm-12 col-md-7 col-lg-7">
 
                             <div className="contactFormContent mx-auto pt-5 pb-5 px-5 mt-5 mt-auto">
-                                <Form>
+                                <Form 
+                                onSubmit={handleSubmit}
+                                action="https://formspree.io/f/xzzbgjlk"
+                                method='POST'>
                                     <FormGroup>
                                         <Label
                                             for="fn" className="mr-sm-2"> Name</Label>
                                         <Input
                                             type="text"
                                             name="fn"
+                                            value={firstName}
                                             id="fn" placeholder="Enter your name..."
-                                            className="contactFormInput" />
+                                            className="contactFormInput" 
+                                            required
+                                            onChange={(e) => setFirstName(e.target.value)}/>
                                     </FormGroup>
 
                                     <FormGroup>
                                         <Label for="email" className="mr-sm-2">Email</Label>
                                         <Input
-                                            type="text"
+                                            type="email"
                                             name="email"
+                                            value={email}
                                             id="email"
                                             placeholder="Enter your Email..."
-                                            className="contactFormInput" />
+                                            className="contactFormInput" 
+                                            required 
+                                            onChange={(e) => setEmail(e.target.value)}/>
                                     </FormGroup>
 
                                     <FormGroup>
@@ -42,12 +69,15 @@ const Contact = () => {
                                             type="text"
                                             name="message"
                                             id="message"
+                                            value={message}
                                             placeholder="Enter your message..."
-                                            className="contactFormInput" />
+                                            className="contactFormInput" 
+                                            required 
+                                            onChange={(e) => setMessage(e.target.value)}/>
                                     </FormGroup>
 
                                     <div className="contactBtnHolder text-center">
-                                        <Button className="contactBtn mt-5" type="button">Send</Button>
+                                        <Button className="contactBtn mt-5" type="submit">Send</Button>
                                     </div>
                                 </Form>
                             </div>
@@ -64,7 +94,7 @@ const Contact = () => {
 
                                         <FontAwesomeIcon icon={faEnvelope} className="mediaIcon me-5" />
 
-                                        <a href="mailto:haneefah207@gmail.com"><button type="button" className="mediaButton">Email</button></a>
+                                        <a href="https://formsubmit.co/el/cudina"><button type="button" className="mediaButton">Email</button></a>
                                     </div>
 
                                     <div className="individualMediaBox d-flex align-items-center mb-4">
