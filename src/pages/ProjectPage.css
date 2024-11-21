@@ -84,9 +84,15 @@
     .projectInfoContainer {
         margin-top: 3em;
         padding: none;
+        width: 100%
     }
     .projectImg {
         width: 100%;
+    }
+}
+@media (max-width: 396px) { 
+    .projectButton {
+        margin-bottom: 1rem;
     }
 }
 .projectButtonsContainer {

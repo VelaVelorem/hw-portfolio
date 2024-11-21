@@ -40,7 +40,7 @@ const ProjectPage = () => {
                                 <h5 className="projectHeader mb-4">Fandango Project</h5>
                                 <p>For my Fandango-inspired project, I dove into the essential tools of web development—React, HTML, CSS, JavaScript, and Bootstrap—to recreate the UI design of Fandango's ticket selection and seat booking pages. This project challenged me to incorporate dynamic features, allowing users to easily adjust their ticket quantity. Once they’ve selected their desired number of tickets, they’re prompted to log in through a simplistic validation process. After successful authentication they will be navigated to the seat booking page.</p>
 
-                                <div className="projectButtonsContainer mt-5 d-flex justify-content-center align-items-center">
+                                <div className="projectButtonsContainer mt-5 d-flex justify-content-center align-items-center flex-wrap">
                                     <a href="https://velavelorem.github.io/fandango-project/"><button type="button" className="projectButton me-5">Live Website</button></a>
                                     <a href="https://github.com/VelaVelorem/fandango-project"><button type="button" className="projectButton">Github</button></a>
                                 </div>
