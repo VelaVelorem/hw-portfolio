@@ -70,13 +70,14 @@ const Projects = () => {
                                 <li><button className="skillsBtn me-2 mt-2" disabled>Redux</button></li>
                                 <li><button className="skillsBtn me-2 mt-2" disabled>Git</button></li>
                                 <li><button className="skillsBtn me-2 mt-2" disabled>Github</button></li>
+                                <li><button className="skillsBtn me-2 mt-2" disabled>React Native</button></li>
+                                <li><button className="skillsBtn me-2 mt-2" disabled>Tailwind</button></li>
                             </ul>
 
                             <h4 className="mt-4">Currently Studying</h4>
 
                             <ul className="skillContainer d-flex justify-content-start flex-wrap">
                                 <li><button className="skillsBtn me-2 mt-2" disabled>Next.js</button></li>
-                                <li><button className="skillsBtn me-2 mt-2" disabled>Tailwind</button></li>
                                 <li><button className="skillsBtn me-2 mt-2" disabled>TypeScript</button></li>
                             </ul>
 
