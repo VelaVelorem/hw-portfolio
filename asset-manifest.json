@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/hw-portfolio/static/css/main.b4dbdb5c.css",
-    "main.js": "/hw-portfolio/static/js/main.75c264b0.js",
+    "main.js": "/hw-portfolio/static/js/main.e597fd01.js",
     "static/js/453.4fbdcbaa.chunk.js": "/hw-portfolio/static/js/453.4fbdcbaa.chunk.js",
-    "static/media/aniScope.png": "/hw-portfolio/static/media/aniScope.23ed5a0384187eaae537.png",
+    "static/media/animefront.png": "/hw-portfolio/static/media/animefront.e9743d970be2071e7df2.png",
     "static/media/portfoliofront.png": "/hw-portfolio/static/media/portfoliofront.40873714e01fedacdc4f.png",
+    "static/media/Todofront.png": "/hw-portfolio/static/media/Todofront.ef1e986404c8ebcb158e.png",
     "static/media/fandangoFront.png": "/hw-portfolio/static/media/fandangoFront.bb47c69fdfb294bce73e.png",
     "index.html": "/hw-portfolio/index.html",
     "main.b4dbdb5c.css.map": "/hw-portfolio/static/css/main.b4dbdb5c.css.map",
-    "main.75c264b0.js.map": "/hw-portfolio/static/js/main.75c264b0.js.map",
+    "main.e597fd01.js.map": "/hw-portfolio/static/js/main.e597fd01.js.map",
     "453.4fbdcbaa.chunk.js.map": "/hw-portfolio/static/js/453.4fbdcbaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4dbdb5c.css",
-    "static/js/main.75c264b0.js"
+    "static/js/main.e597fd01.js"
   ]
 }
