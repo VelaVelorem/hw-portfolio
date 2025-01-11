@@ -1,7 +1,8 @@
 import './ProjectPage.css'
 import  fandangoProj  from '../imgs/fandangoFront.png';
 import  portfolioProj  from '../imgs/portfoliofront.png'
-import  animeProj from '../imgs/aniScope.png';
+import  animeProj from '../imgs/animefront.png';
+import todoList from '../imgs/Todofront.png'
 
 
 const ProjectPage = () => {
@@ -16,14 +17,15 @@ const ProjectPage = () => {
                         <div className="individualProjectContainer d-flex align-items-center justify-content-around flex-wrap col-12">
 
                             <div className="projectImageContainer">
-                                <img src={animeProj} alt="Anime Database Project Image" className="projectImg" />
+                                <img src={animeProj} alt="Anime Database Project Front" className="projectImg" />
                             </div>
 
                             <div className="projectInfoContainer">
-                                <h5 className="projectHeader mb-4 workInProgress d-flex align-items-center gap-3">Anime Database</h5>
-                                    <p>In this project I built an anime database that allows users to search for titles and filter through various genres for the currently airing anime shows. Through integrating an open-source API (Jikan Api) I dynamically display each anime's details. I also stylized the entire app with Tailwind CSS, focusing on a clean, responsive layout that'll maintain a consistent look across devices, I as well emphasized utilizing select React hooks to manage the project's state and data flow across components.</p>
+                                <h5 className="projectHeader mb-4 d-flex align-items-center gap-3">Anime Database</h5>
+                                    <p>In this project, I built an anime database called AniScope that lets users search for titles and filter for specific top airing anime. Using Jikan API, I dynamically display each anime's details. I also stylized the entire app with Tailwind CSS, focusing on a clean, responsive layout that'll maintain a consistent look across devices. Along with that, I also incorporated a login modal where the login form uses Formik for validation. To make the overall experience better, I added info modals for each anime, offering detailed summaries about the shows. Throughout the project, I focused on leveraging React hooks to efficiently manage state and data flow between components.</p>
 
                                 <div className="projectButtonsContainer mt-5 d-flex justify-content-center align-items-center">
+                                <a href="https://velavelorem.github.io/anime-database/"><button type="button" className="projectButton me-5">Live Website</button></a>
                                    <a href="https://github.com/VelaVelorem/anime-database.git"><button type="button" className="projectButton">Github</button></a>
                                 </div>
                             </div>
@@ -33,7 +35,7 @@ const ProjectPage = () => {
                         <div className="individualProjectContainer d-flex align-items-center justify-content-around flex-wrap col-12 mb-5">
 
                             <div className="projectImageContainer">
-                                <img src={fandangoProj} alt="Fandango Project Image" className="projectImg" />
+                                <img src={fandangoProj} alt="Fandango Project Front" className="projectImg" />
                             </div>
 
                             <div className="projectInfoContainer">
@@ -51,7 +53,7 @@ const ProjectPage = () => {
                         <div className="individualProjectContainer d-flex align-items-center justify-content-around flex-wrap col-12">
 
                             <div className="projectImageContainer">
-                                <img src={portfolioProj} alt="Portfolio Project Image" className="projectImg" />
+                                <img src={portfolioProj} alt="Portfolio Project Front" className="projectImg" />
                             </div>
 
                             <div className="projectInfoContainer">
@@ -60,6 +62,25 @@ const ProjectPage = () => {
 
                                 <div className="projectButtonsContainer mt-5 d-flex justify-content-center align-items-center">
                                    <a href="https://github.com/VelaVelorem/hw-portfolio"><button type="button" className="projectButton">Github</button></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="individualProjectContainer d-flex align-items-center justify-content-around flex-wrap col-12">
+
+                            <div className="projectImageContainer">
+                                <img src={todoList} alt="Todo List Project Front" className="projectImg" />
+                            </div>
+
+                            <div className="projectInfoContainer">
+                                <h5 className="projectHeader mb-4 d-flex align-items-center gap-3 workInProgress">Todo List</h5>
+                                    <p>
+                                    For this small-scale project that I built with React and styled using Tailwind CSS, is a current work in progress where I focused on implementing and practicing core CRUD functionality utilizing React's state management and hooks. Users can add tasks, edit them (coming soon!), and remove items, all within a clean and consistent interface. Extra features to better the experience includes input validation and a task limit to add to its usability.
+                                    </p>
+
+                                <div className="projectButtonsContainer mt-5 d-flex justify-content-center align-items-center">
+                                   <a href="https://github.com/VelaVelorem/todo-planner"><button type="button" className="projectButton">Github</button></a>
                                 </div>
                             </div>
 
