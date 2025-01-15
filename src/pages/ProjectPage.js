@@ -2,7 +2,7 @@ import './ProjectPage.css'
 import  fandangoProj  from '../imgs/fandangoFront.png';
 import  portfolioProj  from '../imgs/portfoliofront.png'
 import  animeProj from '../imgs/animefront.png';
-import todoList from '../imgs/Todofront.png'
+import todoList from '../imgs/todo.png'
 
 
 const ProjectPage = () => {
