@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hw-portfolio/static/css/main.b4dbdb5c.css",
-    "main.js": "/hw-portfolio/static/js/main.83f9e22a.js",
+    "main.css": "/hw-portfolio/static/css/main.8bc94e83.css",
+    "main.js": "/hw-portfolio/static/js/main.fd44de1d.js",
     "static/js/453.4fbdcbaa.chunk.js": "/hw-portfolio/static/js/453.4fbdcbaa.chunk.js",
     "static/media/animefront.png": "/hw-portfolio/static/media/animefront.e9743d970be2071e7df2.png",
     "static/media/portfoliofront.png": "/hw-portfolio/static/media/portfoliofront.40873714e01fedacdc4f.png",
     "static/media/todo.png": "/hw-portfolio/static/media/todo.fad32018d2bf8cfd24af.png",
     "static/media/fandangoFront.png": "/hw-portfolio/static/media/fandangoFront.bb47c69fdfb294bce73e.png",
     "index.html": "/hw-portfolio/index.html",
-    "main.b4dbdb5c.css.map": "/hw-portfolio/static/css/main.b4dbdb5c.css.map",
-    "main.83f9e22a.js.map": "/hw-portfolio/static/js/main.83f9e22a.js.map",
+    "main.8bc94e83.css.map": "/hw-portfolio/static/css/main.8bc94e83.css.map",
+    "main.fd44de1d.js.map": "/hw-portfolio/static/js/main.fd44de1d.js.map",
     "453.4fbdcbaa.chunk.js.map": "/hw-portfolio/static/js/453.4fbdcbaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4dbdb5c.css",
-    "static/js/main.83f9e22a.js"
+    "static/css/main.8bc94e83.css",
+    "static/js/main.fd44de1d.js"
   ]
 }
