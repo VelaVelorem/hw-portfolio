@@ -8,7 +8,7 @@ const Projects = () => {
                     <div className="row">
                         <div className=" col-xs-12 col-sm-12 col-md-6 col-lg-6 fadeUpLast">
 
-                            <h4>Education</h4>
+                            <h4 className="my-5">Education</h4>
 
                             <div className="educationBox mb-3 px-3 pt-2 pb-2">
                                 <h5>Nucamp Coding Bootcamp | Web Development  Fundamentals, Front End & Mobile Development</h5>
@@ -58,7 +58,7 @@ const Projects = () => {
 
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 fadeUp ps-5">
 
-                            <h4>Skills</h4>
+                            <h4 className="my-5">Skills</h4>
                             
                             <ul className="skillContainer d-flex justify-content-start flex-wrap">
                                 <li><button className="skillsBtn me-2 mt-2" disabled>React</button></li>

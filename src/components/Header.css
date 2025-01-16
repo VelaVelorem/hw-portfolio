@@ -22,10 +22,6 @@ ol, ul {
 .fadeRightSecond {
     animation: fadeRight 1s ease-in forwards;
 }
-.headerContainer {
-    /* height: 50%; */
-    /* border: 1px solid red; */
-}
 .subheaderDescription {
     text-transform: uppercase;
 }
@@ -36,12 +32,8 @@ ol, ul {
     text-transform: uppercase;
     font-size: 0.9rem;
 }
-.headerContent {
-    /* border: 1px solid black; */
-}
 .buttonContainer {
     width: 60%;
-    /* border: 1px solid purple; */
 }
 h1 {
     font-size: 4.2rem;
@@ -52,10 +44,18 @@ h1 {
 }
 h2 {
     font-size: 3rem;
-    color: #b8c7c2;
+    color: #a8c4ba;
     text-transform: uppercase;
     font-weight: 400;
     text-shadow: 2px 2px #00000015;
+}
+@media (max-width: 310px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
 }
 a .socialMediaIcon {
     text-decoration: none;

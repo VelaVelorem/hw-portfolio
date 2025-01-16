@@ -16,13 +16,11 @@ nav {
     box-shadow: grey 1px 1px 8px;
 }
 nav ul li {
-    color: #b7b7b7;
+    color: #6e6b6b;
     border-bottom: 1px solid lightgrey;
 }
 nav ul li:hover {
-    color: #686868;
-    border-bottom: 1px solid #686868;
-    transition: 0.5s ease-in;
+    cursor: pointer;
 }
 .logo {
     height: 30px;

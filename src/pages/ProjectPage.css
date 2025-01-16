@@ -90,10 +90,21 @@
         width: 100%;
     }
 }
+@media (max-width: 1396px) { 
+    .projectInfoContainer {
+        margin-top: 3em;
+        padding: none;
+    }
+}
 @media (max-width: 396px) { 
     .projectButton {
         margin-bottom: 1rem;
     }
+}
+@media (max-width: 338px) { 
+    /* .projectButton {
+        margin-bottom: 1rem;
+    } */
 }
 .projectButtonsContainer {
     width: 100%;

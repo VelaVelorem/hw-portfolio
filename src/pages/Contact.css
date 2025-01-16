@@ -135,4 +135,7 @@ label {
     .contactFormBox {
         margin-bottom: 5em;
     }
+    .contactInfoBox {
+        margin: auto;
+    }
 }

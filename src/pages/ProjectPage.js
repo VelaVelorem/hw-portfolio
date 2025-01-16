@@ -12,9 +12,9 @@ const ProjectPage = () => {
                 <div className="container">
                     <div className="row">
 
-                        <h5 className="projectMainHeader">Projects</h5>
+                        <h5 className="projectMainHeader d-flex justify-content-start">Projects</h5>
 
-                        <div className="individualProjectContainer d-flex align-items-center justify-content-around flex-wrap col-12">
+                        <div className="individualProjectContainer d-flex align-items-center justify-content-around flex-wrap col-12 mb-5">
 
                             <div className="projectImageContainer">
                                 <img src={animeProj} alt="Anime Database Project Front" className="projectImg" />
@@ -25,7 +25,7 @@ const ProjectPage = () => {
                                     <p>In this project, I built an anime database called AniScope that lets users search for titles and filter for specific top airing anime. Using Jikan API, I dynamically display each anime's details. I also stylized the entire app with Tailwind CSS, focusing on a clean, responsive layout that'll maintain a consistent look across devices. Along with that, I also incorporated a login modal where the login form uses Formik for validation. To make the overall experience better, I added info modals for each anime, offering detailed summaries about the shows. Throughout the project, I focused on leveraging React hooks to efficiently manage state and data flow between components.</p>
 
                                 <div className="projectButtonsContainer mt-5 d-flex justify-content-center align-items-center">
-                                <a href="https://velavelorem.github.io/anime-database/"><button type="button" className="projectButton me-5">Live Website</button></a>
+                                <a href="https://velavelorem.github.io/anime-database/"><button type="button" className="projectButton me-5">Live Site</button></a>
                                    <a href="https://github.com/VelaVelorem/anime-database.git"><button type="button" className="projectButton">Github</button></a>
                                 </div>
                             </div>
@@ -42,15 +42,15 @@ const ProjectPage = () => {
                                 <h5 className="projectHeader mb-4">Fandango Project</h5>
                                 <p>For my Fandango-inspired project, I dove into the essential tools of web development—React, HTML, CSS, JavaScript, and Bootstrap—to recreate the UI design of Fandango's ticket selection and seat booking pages. This project challenged me to incorporate dynamic features, allowing users to easily adjust their ticket quantity. Once they’ve selected their desired number of tickets, they’re prompted to log in through a simplistic validation process. After successful authentication they will be navigated to the seat booking page.</p>
 
-                                <div className="projectButtonsContainer mt-5 d-flex justify-content-center align-items-center flex-wrap">
-                                    <a href="https://velavelorem.github.io/fandango-project/"><button type="button" className="projectButton me-5">Live Website</button></a>
+                                <div className="projectButtonsContainer mt-5 d-flex justify-content-center align-items-center">
+                                    <a href="https://velavelorem.github.io/fandango-project/"><button type="button" className="projectButton me-5">Live Site</button></a>
                                     <a href="https://github.com/VelaVelorem/fandango-project"><button type="button" className="projectButton">Github</button></a>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div className="individualProjectContainer d-flex align-items-center justify-content-around flex-wrap col-12">
+                        <div className="individualProjectContainer d-flex align-items-center justify-content-around flex-wrap col-12 mb-5">
 
                             <div className="projectImageContainer">
                                 <img src={portfolioProj} alt="Portfolio Project Front" className="projectImg" />

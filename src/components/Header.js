@@ -17,11 +17,11 @@ const Header = () => {
                             <h3 className="subheaderDescription">Frontend Developer</h3>
 
                             <ul className="socialMediaContainer d-flex justify-content-start flex-wrap mt-3">
-                                <li><button className="softSkillsBtn me-2" disabled>Adaptablity</button></li>
-                                <li><button className="softSkillsBtn me-2" disabled>Organization</button></li>
-                                <li><button className="softSkillsBtn me-2" disabled>Enthusiasm for learning</button></li>
-                                <li><button className="softSkillsBtn me-2" disabled>Self Motivated</button></li>
-                                <li><button className="softSkillsBtn me-2" disabled>Analytical</button></li>
+                                <li><button className="softSkillsBtn me-2 mb-2" disabled>Adaptablity</button></li>
+                                <li><button className="softSkillsBtn me-2 mb-2" disabled>Organization</button></li>
+                                <li><button className="softSkillsBtn me-2 mb-2" disabled>Enthusiasm for learning</button></li>
+                                <li><button className="softSkillsBtn me-2 mb-2" disabled>Self Motivated</button></li>
+                                <li><button className="softSkillsBtn me-2 mb-2" disabled>Analytical</button></li>
                             </ul>
                         </div>
                     </div>
