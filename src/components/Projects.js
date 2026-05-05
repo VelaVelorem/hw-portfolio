@@ -11,19 +11,39 @@ const Projects = () => {
                             <h4 className="my-5">Education</h4>
 
                             <div className="educationBox mb-3 px-3 pt-2 pb-2">
+                                <h5>Western Governors University | B.S. Software Engineering</h5>
+                                <span className="educationSubheader">Est. Graduation: Sept 2028</span>
+
+                                <ul className="experienceList mt-4">
+
+                                    <li className="experienceItem">
+                                        - Studied networking, operating systems, and security fundamentals to better understand how applications function within larger systems
+                                    </li>
+                                    <li className="experienceItem">
+                                        - Applied problem-solving and analytical thinking to complete project-based coursework and technical assessments
+                                    </li>
+                                    <li className="experienceItem">
+                                        - Developed a strong foundation in software engineering principles, including object-oriented programming, data structures, and system design
+                                    </li>
+                                    <li className="experienceItem">
+                                        - Designed and developed applications using languages such as JavaScript and Python, applying core programming concepts to real-world scenarios
+                                    </li>
+                                </ul></div>
+
+                            <div className="educationBox mb-3 px-3 pt-2 pb-2">
                                 <h5>Nucamp Coding Bootcamp | Web Development  Fundamentals, Front End & Mobile Development</h5>
                                 <span className="educationSubheader">June 2024 - Sept 2024</span>
 
                                 <ul className="experienceList mt-4">
 
                                     <li className="experienceItem">
-                                        Utilized Bootstrap for responsive design, allowing me to create visually appealing layouts that adapt seamlessly across different devices.
+                                        - Utilized Bootstrap for responsive design, allowing me to create visually appealing layouts that adapt seamlessly across different devices.
                                     </li>
                                     <li className="experienceItem">
-                                        Built dynamic web applications using React, JavaScript, and Redux, demonstrating my ability to create responsive user interfaces and manage application state effectively.
+                                        - Built dynamic web applications using React, JavaScript, and Redux, demonstrating my ability to create responsive user interfaces and manage application state effectively.
                                     </li>
                                     <li className="experienceItem">
-                                        Gained hands-on experience in HTML, CSS, and JavaScript, developing responsive and interactive web applications.
+                                        - Gained hands-on experience in HTML, CSS, and JavaScript, developing responsive and interactive web applications.
                                     </li>
                                 </ul></div>
 
@@ -33,10 +53,10 @@ const Projects = () => {
                                 <ul className="experienceList mt-4">
 
                                     <li className="experienceItem">
-                                        Gained a thorough understanding of project lifecycle management, collaborated with alumni teams to deliver successful planning and execution of mock projects.
+                                        - Gained a thorough understanding of project lifecycle management, collaborated with alumni teams to deliver successful planning and execution of mock projects.
                                     </li>
                                     <li className="experienceItem">
-                                        Collaborated with teams to strategize project management techniques, enhancing my ability to work effectively in group settings.
+                                        - Collaborated with teams to strategize project management techniques, enhancing my ability to work effectively in group settings.
                                     </li>
                                 </ul></div>
 
@@ -48,10 +68,10 @@ const Projects = () => {
                                 <ul className="experienceList mt-4">
 
                                     <li className="experienceItem">
-                                        Studied the fundamentals of HTML5 and CSS3, applying semantic markup techniques to produce clean and accessible code that adheres to web standards.
+                                        - Studied the fundamentals of HTML5 and CSS3, applying semantic markup techniques to produce clean and accessible code that adheres to web standards.
                                     </li>
                                     <li className="experienceItem">
-                                        Practiced styling techniques to enhance website aesthetics and usability, focusing on best practices for creating visually engaging user experiences.
+                                        - Practiced styling techniques to enhance website aesthetics and usability, focusing on best practices for creating visually engaging user experiences.
                                     </li>
                                 </ul></div>
                         </div>
@@ -65,6 +85,7 @@ const Projects = () => {
                                 <li><button className="skillsBtn me-2 mt-2" disabled>HTML</button></li>
                                 <li><button className="skillsBtn me-2 mt-2" disabled>CSS</button></li>
                                 <li><button className="skillsBtn me-2 mt-2" disabled>Javascript</button></li>
+                                <li><button className="skillsBtn me-2 mt-2" disabled>Python</button></li>
                                 <li><button className="skillsBtn me-2 mt-2" disabled>Bootstrap</button></li>
                                 <li><button className="skillsBtn me-2 mt-2" disabled>Firebase</button></li>
                                 <li><button className="skillsBtn me-2 mt-2" disabled>Redux</button></li>
@@ -72,6 +93,14 @@ const Projects = () => {
                                 <li><button className="skillsBtn me-2 mt-2" disabled>Github</button></li>
                                 <li><button className="skillsBtn me-2 mt-2" disabled>React Native</button></li>
                                 <li><button className="skillsBtn me-2 mt-2" disabled>Tailwind</button></li>
+                            </ul>
+
+                            <h4 className="mt-4">Certifications</h4>
+
+                            <ul className="skillContainer d-flex justify-content-start flex-wrap">
+                                <li><button className="skillsBtn me-2 mt-2" disabled>CompTIA Security+</button></li>
+                                <li><button className="skillsBtn me-2 mt-2" disabled>CompTIA Project+</button></li>
+                                <li><button className="skillsBtn me-2 mt-2" disabled>AWS Cloud Practitioner</button></li>
                             </ul>
 
                             <h4 className="mt-4">Currently Studying</h4>

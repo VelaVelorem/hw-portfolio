@@ -29,7 +29,9 @@ const Header = () => {
 
                 <section className="blurbContainer col col-xs-12 col-sm-12 col-md-6 col-lg-6 fadeRightSecond">
                     <h2 className="aboutMeHeader mb-4">Hey there,</h2>
-                    <p className="aboutMeSummary">I’m a front-end web developer from Southern Maryland, with a background as a doctor's assistant in dentistry. My journey into coding began as a personal interest; after discovering my passion, I pursued self-study, attended a web development bootcamp, and took college courses related to the field. I’ve gained a deep appreciation for both design and functionality and look forward to enhancing my skills in this dynamic industry.</p>
+                    <p className="aboutMeSummary">I’m a front-end web developer from Southern Maryland, with a background as a doctor's assistant in dentistry. My journey into coding initially began as a personal interest; eventually it led me to complete a web development bootcamp, build projects, and continue my education through Western Governors University. 
+                        
+                        <p></p>Since then, I’ve built responsive web applications using React and modern web technologies, while also expanding my knowledge in networking, cloud, and cybersecurity through certifications like CompTIA Security+ and AWS Cloud Practitioner.</p>
                 </section>
             </div>
         </section>
